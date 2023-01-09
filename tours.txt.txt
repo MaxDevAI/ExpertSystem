@@ -1,0 +1,72 @@
+clauses
+categ(1,"количество звезд").
+categ(2,"питание").
+categ(3,"удобства").
+categ(4,"близость к пляжу").
+categ(5,"тип пляжа").
+cond(1,1,"5 звезд").
+cond(2,1,"4 звезды").
+cond(3,1,"3 звезды").
+cond(4,1,"1-2 звезды").
+cond(5,2,"все включено").
+cond(6,2,"завтрак, обед").
+cond(7,2,"только завтрак").
+cond(8,2,"без питания").
+cond(9,3,"отдых с детьми").
+cond(10,3,"идеально для пар").
+cond(11,3,"кондиционер").
+cond(12,3,"интернет").
+cond(13,3,"оздоровительный тур").
+cond(14,4,"близко").
+cond(15,5,"песчаный").
+cond(16,5,"галечный").
+tour(1,"Турция - Holiday Park Resort",[1,5,9,11,12,13,14,15]).
+tour(2,"Турция - Lake & River Side",[1,5,9,10,11,12,15]).
+tour(3,"Турция - Larissa Hill Beach (ex.Green Hill Holiday Club)",[1,5,9,11,14,15]).
+tour(4,"Турция - My Home Sky",[2,8,9,11,12,13,15]).
+tour(5,"Турция - Pineta Club",[2,5,6,7,9,11,14,15,16]).
+tour(6,"Турция - SunHill ",[2,6,7,9,11,15]).
+tour(7,"Турция - Grand Hotel Derin (ex. Sunmerry)",[2,6,7,9,11,14,15,16]).
+tour(8,"Турция - Britania",[3,6,7,9,11,12,14,16]).
+tour(9,"Турция - Blue night",[3,6,7,9,14,15,16]).
+tour(10,"Турция - Meltem",[4,8,11,14,16]).
+tour(11,"Турция - Kleopatra Bebek",[4,7,9,12,14,15]).
+tour(12,"ОАЭ, Дубай - Middle East",[4,8,11,12,14,15]).
+tour(13,"ОАЭ, Дубай - Hotel Spectrum",[4,7,11,12,15]).
+tour(14,"ОАЭ, Дубай - Citymax Hotel Bur Dubai",[3,7,9,10,12,15]).
+tour(15,"ОАЭ, Дубай - Orchid Hotel",[3,7,11,15]).
+tour(16,"ОАЭ, Дубай - Marina View Hotel Apartments",[2,6,9,11,13,14,15]).
+tour(17,"ОАЭ, Дубай - Jannah Marina Bay Suites",[1,5,9,10,11,12,15]).
+tour(18,"ОАЭ, Абу-Даби - Yas Island Rotana",[2,6,9,10,12,14,15]).
+tour(19,"ОАЭ, Абу-Даби - Tryp By Wyndham Abu Dhabi City Centre",[2,6,11,12,15]).
+tour(20,"ОАЭ, Абу-Даби - Ibis Abu Dhabi Gate",[3,7,9,10,11,12]).
+tour(21,"ОАЭ, Шарджа - Crystal Plaza Hotel Sharjah",[4,7,9,11,12,15]).
+tour(22,"ОАЭ, Шарджа - Al Khalidiah Resort Villas",[3,6,9,10,11,14,15]).
+tour(23,"Греция, Кос - Mikri Poli Kos",[1,5,9,10,11,14,15,16]).
+tour(24,"Греция, Крит - Galaxy Villas",[2,7,9,10,12,14,15,16]).
+tour(25,"Греция, Кастория - Efi",[4,8,14,15]).
+tour(26,"Греция, Крит - Villa Contessa",[4,8,10,12,14,15]).
+tour(27,"Греция, Крит - Heronissos Hotel",[2,7,11,12,14,15,16]).
+tour(28,"Кипр, Пафос - Venus Beach Hotel",[1,5,9,10,11,14,15]).
+tour(29,"Кипр, Айя-Напа - Adams Beach Hotel",[1,6,9,11,12,14,15,16]).
+tour(30,"Кипр, Пафос - Agapinor",[3,7,9,11,14,15,16]).
+tour(31,"Кипр, Лимассол - Sylva",[4,7,9,11,12,14,15,16]).
+tour(32,"Кипр, Хлоракас - Akteon Holiday Village",[2,6,9,11,14,15]).
+tour(33,"Италия, Римини - Fiabilandia Hotel",[1,6,7,8,10,11,12,14,16]).
+tour(34,"Испания, Салоу - Salou Resort",[2,5,9,11,12,13,14,15]).
+tour(35,"Болгария, Несебр - Paradise View Hotel",[3,8,10,11,12]).
+tour(36,"Черногория, Котор - Tree Hotel",[4,8,11,12,14,16]).
+tour(37,"Португалия, Кашкайш - Lisboa Villlage",[1,7,11,12,13,14,15]).
+tour(38,"Греция, Корфу - Sidari Water Hotel",[2,5,11,12,13]).
+tour(39,"Хорватия, Дубровник - Dubrovnik Resort Village",[3,6,9,10,12,13]).
+tour(40,"Франция, Ментон - Koaland Resort",[1,5,9,10,11,12]).
+tour(41,"Италия, Террачина - Ter Italy Resort",[2,5,9,10,11,12]).
+tour(42,"Шри-Ланка, Ваддува - Taprobana Wadduwa",[2,6,10,12,14,15]).
+tour(43,"Шри-Ланка, Хиккадува - Hikkaduwa Beach Hotel",[2,7,9,11,14,15]).
+tour(44,"Шри-Ланка, Коггала - The Long Beach Resort",[1,5,9,10,11,12,13,14,15]).
+tour(45,"Шри-Ланка, Бентота - Centara Ceysands Resort&Spa Sri Lanka",[1,5,10,11,13,16]).
+tour(46,"Египет, Шарм эль Шейх - Amar Sina Hotel",[1,5,9,10,11,12,16]).
+tour(47,"Египет, Табa - Stand Taba Heights Beach & Golf Resort",[2,6,10,12,15]).
+tour(48,"Египет, Хургада - Sand Beach Hotel",[1,5,9,10,11,12,14,15]).
+tour(49,"Индия, Южный Гоа - Nanu Beach Resort&Spa",[2,7,9,10,11,12]).
+tour(50,"Индия, Северный Гоа - Morjim Hermitage",[4,7,11,12]).
